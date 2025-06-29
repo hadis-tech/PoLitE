@@ -20,16 +20,20 @@ AI-Powered Tie-Breaker Logic: Resolving ambiguous amenity assignments based on l
 Demographic Enrichment: Associating clusters with population and health data from the 2021 UK Census.
 
 Below is a diagram illustrating the workflow:
-![PoLitE Diagram](PoLitE Diagram.png)
+PoLitE Diagram.png
 
 🛠 Files
 This repository includes the following Jupyter Notebooks:
 
 File Name:	Description
 1- Find_All_Amenities-G.ipynb:	Extracts and processes amenities from OpenStreetMap
+
 2- Amenity_Category-G.ipynb:	Categorizes amenities into 13 types using AI-powered rules
+
 3- Litter-Categorize_Center_Material-G.ipynb:	Performs material-based clustering of litter observations
+
 4- Find_Amenity_based_on_Material_Center-G.ipynb:	Links clusters to surrounding amenities with tie-breaker logic
+
 5- Find_OA_&_Population_&_per-G.ipynb:	Enriches clusters with demographic and health indicators
 
 Each script corresponds to a step in the workflow described in the paper.
@@ -38,10 +42,13 @@ Each script corresponds to a step in the workflow described in the paper.
 Clone this repository:
 
 git clone https://github.com/yourusername/your-repository.git
+
 cd your-repository
+
 Create a Python environment (optional) and install dependencies:
 
 pip install -r requirements.txt
+
 Typical dependencies include:
 
 pandas
