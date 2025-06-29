@@ -20,7 +20,7 @@ AI-Powered Tie-Breaker Logic: Resolving ambiguous amenity assignments based on l
 Demographic Enrichment: Associating clusters with population and health data from the 2021 UK Census.
 
 Below is a diagram illustrating the workflow:
-
+Diagram_PoLitE.pdf
 
 
 🛠 Files
